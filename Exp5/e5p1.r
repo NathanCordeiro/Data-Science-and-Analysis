@@ -9,3 +9,6 @@ main="Multiple box Plots",
 ylab="Count", 
 beside=TRUE 
 ) 
+
+hist(as.matrix(marks_summary),xlab="subject",col="yellow") 
+
